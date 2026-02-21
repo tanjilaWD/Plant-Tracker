@@ -23,18 +23,20 @@
 
         <div class="bg-red-500 p-4 rounded-3xl">
             <p>Struggling</p>
-           <p class="strugglingCount">0</p> 
+           <p id="strugglingCount">0</p> 
         </div>
       </div>
    </header>
 
    <hr class="my-5">
     <main class="w-[80%] mx-auto">
-        <div>
+<div>
 <button onclick="toggleStyle('all-filter-btn')" class="bg-black px-5 py-2 rounded-md text-white" id="all-filter-btn">All</button>
-<button class="bg-gray-300 px-5 py-2 rounded-md" id="thriving-filter-btn">Thriving</button>
-<button class="bg-gray-300 px-5 py-2 rounded-md" id="struggling-filter-btn">Struggling</button>
-        </div>
+
+<button  onclick="toggleStyle('thriving-filter-btn')" class="bg-gray-300 px-5 py-2 rounded-md" id="thriving-filter-btn">Thriving</button>
+
+<button  onclick="toggleStyle('struggling-filter-btn')" class="bg-gray-300 px-5 py-2 rounded-md" id="struggling-filter-btn">Struggling</button>
+</div>
 
 <section id="allCards">
     <!-- card 1 -->
